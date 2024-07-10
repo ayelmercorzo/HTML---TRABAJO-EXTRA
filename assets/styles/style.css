@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* CONTENIDO DEL HEADER */
+header {
+    display: flex;
+    gap: 50%;
+    width: 100%;
+    height: min-content;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+header .logo-header {
+    text-align: center;
+    justify-self: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+nav {
+    float: left;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+/*FINAL DEL CONTENIDO HEADER */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/*CONTENIDO DEL MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 60, 60);
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    margin-top: 0px;
+    padding: 0;
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+main {
+    background-image: url(../Images/pexels-nao-triponez-129207.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    row-gap: 80px;
+}
+
+main h2 {
+    font-size: 52px;
+}
+
+main button {
+    background-color: rgb(255, 196, 87);
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 0px solid;
+}
+
+main button:hover {
+    background-color: rgb(250, 181, 52);
+    cursor: pointer;
+}
+
+.section1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.section1 button {
+    background-color: rgb(250, 181, 52);
+
+}
+.section1 .line {
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+    align-self: center;
+}
+.section1 h2 {
+    text-align: center;
+    align-self:center;
+    font-size: 55px;
+}
+
