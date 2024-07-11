@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* CONTENIDO DEL HEADER */
+header {
+    display: flex;
+    gap: 50%;
+    width: 100%;
+    height: 7vh;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+header .logo-header {
+    text-align: center;
+    justify-self: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+}
+nav {
+    float: left;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+}
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid #DAA055;
+}
+/*FINAL DEL CONTENIDO HEADER */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/*CONTENIDO DEL MAIN*/
+main {
+    background-image: url(../Images/pexels-nao-triponez-129207.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-color: rgb(61, 60, 60);
+    
+}
+main .contenido-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+main h1 {
+    padding: 0;
+    font-size: 52px;
+    padding: 0;
+    margin-top: 130px;
+}
+main .espacio-vacio {
+    margin: 0;
+    width: 0px;
+    height: 300px;
+}
+main h2 {
+    font-size: 52px;
+    margin-top: 130px;
+}
+main button {
+    background-color: #DAA055;
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    border: 0px solid;
+    z-index: 100;
+}
+main button:hover {
+    background-color: rgb(250, 181, 52);
+    cursor: pointer;
+}
+/*FINAL DEL CONTENIDO MAIN */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/*CONTENIDO DEL SECTION1*/
+.section1 {
+    display: flex;
+    padding: 50px;
+    position: relative;
+    background-color: #121212; /* Match the background */
+}
+  .imagen-1 img {
+    object-fit: cover; 
+  }
+  .content-section1 {
+    max-width: 550px;
+  }
+  .content-section1 h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .content-section1 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .content-section1 button {
+    background-color: #DAA055; /* Button background color */
+    color: #000; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .content-section1 button:hover {
+    background-color: #b89c60; 
+  }
+
+  /*FINAL DEL CONTENIDO SECTION1 */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/* CONTENIDO SECTION2 */
+
+.section2 {
+    display: flex;
+    background-color: #121212; /* Match the background */
+  }
+  
+  .content-section2 {
+    margin-left: 100px;
+    margin-right: 15%;
+  }
+  
+  .content-section2 h2 {
+    font-size: 55px;
+    max-width: 480px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .content-section2 p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .content-section2 button {
+    background-color: #DAA055; /* Button background color */
+    color: #000; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .content-section2 button:hover {
+    background-color: #b38946; /* Button hover color */
+  }
+  
+  .imgsection2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imgsection2 img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 35%;
+  }
+
+   /*FINAL DEL CONTENIDO SECTION1 */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/* CONTENIDO SECTION 3 */
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+}
+.section3 h2 {
+    margin-left: 50px;
+    font-size: 55px;
+}
+.contenido-section3 {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.product1, .product2, .product3 {
+    border: 1px solid #DAA055;
+    border-radius: 2%;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    padding: 15px;
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Colocar los elementos en una columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    position: relative;
+    h5 {
+        margin-top: 0px;
+    }
+    p {
+        text-align: left;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
+
+    button {
+        background-color: #DAA055; 
+        color: #000; 
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #b38946;
+
+    }
+}
+
+.product1 img, .product2 img, .product3 img {
+    max-width: 100%; 
+    position: absolute;
+    top: -50px;
+    height: auto; 
+}
+/*FINAL DEL CONTENIDO SECTION3 */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/* CONTENIDO SECTION4 */
+
+.section4 {
+    width: 100%;
+}
+
+.contenido-section4 {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.contact1 span, .contact2 span,.contact3  span{
+    color: #DAA055;
+}
+
+.contact1 h4, .contact2 h4, .contact3 h4{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contact1 p, .contact2 p, .contact3 p {
+    max-width: 280px;
+    text-align: center;
+}
+
+/*FINAL DEL CONTENIDO SECTION4 */
+
+/*///////////////////////////////////////////////////////////////////// */
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
