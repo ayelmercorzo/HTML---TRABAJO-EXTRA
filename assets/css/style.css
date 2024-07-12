@@ -100,7 +100,7 @@ main button:hover {
     display: flex;
     padding: 50px;
     position: relative;
-    background-color: #121212; /* Match the background */
+    background-color: #121212;
 }
   .imagen-1 img {
     object-fit: cover; 
@@ -119,8 +119,8 @@ main button:hover {
     margin-bottom: 20px;
   }
   .content-section1 button {
-    background-color: #DAA055; /* Button background color */
-    color: #000; /* Button text color */
+    background-color: #DAA055; 
+    color: #000; /* Button text 
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -139,7 +139,7 @@ main button:hover {
 
 .section2 {
     display: flex;
-    background-color: #121212; /* Match the background */
+    background-color: #121212;
   }
   
   .content-section2 {
@@ -161,8 +161,8 @@ main button:hover {
   }
   
   .content-section2 button {
-    background-color: #DAA055; /* Button background color */
-    color: #000; /* Button text color */
+    background-color: #DAA055;
+    color: #000;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -171,7 +171,7 @@ main button:hover {
   }
   
   .content-section2 button:hover {
-    background-color: #b38946; /* Button hover color */
+    background-color: #b38946; 
   }
   
   .imgsection2 {
@@ -214,10 +214,10 @@ main button:hover {
     height: 350px;
     margin: 30px;
     padding: 15px;
-    display: flex; /* Usar flexbox */
-    flex-direction: column; /* Colocar los elementos en una columna */
-    align-items: center; /* Centrar horizontalmente */
-    justify-content: center; /* Centrar verticalmente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
     position: relative;
     h5 {
         margin-top: 0px;
